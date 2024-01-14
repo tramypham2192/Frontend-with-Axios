@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+			<li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+		</ol>
+	</nav>
+
+	<content>
+		<h1>Cat Lover</h1>
+		<!-- insert hello world here -->
+		<p>Hello World!</p>
+		<img id="catPicture" src="./kitty-cat-kitten-pet-45201.jpeg">
+		<p>Welcome to the Cat Lover World</p>
+		<ul>
+			<li>You are a great painter!</li>
+			<li>You are a great adventurer!</li>
+			<li>You are a great explore</li>
+		</ul>
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+			
+			<input type="submit">
+		
+			<h2>How did you hear about us?</h2>
+			<div id="hearOptionGoogle" style="display:flex; flex-direction: row;">
+				<input type="radio" id="Google" name="Google" value="Google">
+				<label for="Google">Google</label>
+			</div>
+			<div id="hearOptionFriend" style="display:flex; flex-direction: row;">
+				<input type="radio" id="aFriend" name="aFriend" value="aFriend">
+				<label for="aFriend">A Friend</label>
+			</div>
+			<div id="hearOptionOther" style="display:flex; flex-direction: row;">
+				<input type="radio" id="other" name="other" value="other">
+				<label for="other">Other</label>
+			</div>
+		</form>
+		<br>
+	</content>
+
+
+	<script src="index.js"></script>
+
+</body>
+</html>
